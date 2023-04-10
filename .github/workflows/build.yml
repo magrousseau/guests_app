@@ -41,8 +41,8 @@ jobs:
         with:
           service: app-runner-git-deploy-service
           image: ${{ steps.build-image.outputs.image }}
-          access-role-arn: ${{ secrets.ROLE_ARN }}
-          wait-for-service-stability: true
+          access-role-arn: ${{ secrets.AWS_ROLE_ARN }}
+          wait-for-service-stability-seconds: true
 
       - name: App Runner output
         run: echo "App runner output ${{ steps.deploy-apprunner.outputs.service-id }}"
