@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "184d11fec6e20f7c16b15866d211f0f7a36f42c0cb2a9f0cb6c954468d15298b"
+            "sha256": "265d265d28d2a8ec035bbdfbd8c8d6c692ceda54579009444c5125cf9fa01f25"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -34,11 +34,11 @@
         },
         "flask": {
             "hashes": [
-                "sha256:6c3130c8927109a08225993e4e503de4ac4f2678678ae211b33b519c622a7242",
-                "sha256:9dce4b6bfbb5b062181d3f7da8f727ff70c1156cbb4024351eafd426deb5fb88"
+                "sha256:2c710d1d42317c802c43000daa16de9de6026146b344ab3376cbc6d18846b863",
+                "sha256:fac2b9d443e49f7e7358a444a3db5950bdd0324674d92ba67f8f1f15f876b14f"
             ],
             "index": "pypi",
-            "version": "==0.12.1"
+            "version": "==0.12.5"
         },
         "flask-migrate": {
             "hashes": [
@@ -79,11 +79,11 @@
         },
         "mako": {
             "hashes": [
-                "sha256:7fde96466fcfeedb0eed94f187f20b23d85e4cb41444be0e542e2c8c65c396cd",
-                "sha256:c413a086e38cd885088d5e165305ee8eed04e8b3f8f62df343480da0a385735f"
+                "sha256:c97c79c018b9165ac9922ae4f32da095ffd3c4e6872b45eded42926deea46818",
+                "sha256:d60a3903dc3bb01a18ad6a89cdbe2e4eadc69c0bc8ef1e3773ba53d44c3f7a34"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==1.2.3"
+            "version": "==1.2.4"
         },
         "markupsafe": {
             "hashes": [

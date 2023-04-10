@@ -46,4 +46,4 @@ def join_guest():
     database.session.commit()
 
     return render_template('guest_confirmation.html',
-    first_name=first_name, last_name=last_name, email=email,, group_size=group_size, meal_option=meal_option)
+    first_name=first_name, last_name=last_name, email=email, group_size=group_size, meal_option=meal_option)
